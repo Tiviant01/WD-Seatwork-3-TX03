@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Kewl;
+    src: url(../fonts/jellee.roman.ttf);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+

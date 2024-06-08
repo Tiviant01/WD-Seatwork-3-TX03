@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Kewl;
+    src: url(../fonts/jellee.roman.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url(../img/jabee.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+section.home {
+
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    font-family: Kewl;
+
+}
+
+section.home h1{
+    color:white;
+    font-size: 40px;
+    margin: 0px;
+}
+
+section.home h2{
+    color:white;
+    font-size: 25px;
+
+    margin: 0px;
+}
+
+section.home p{
+    color:white;
+    font-size: 20px;
+
+}
+section.home.buttons{
+    display : flex;
+    justify-content: center;
+
+   
+}
+    & button{
+        border: none;
+        height : 70px;
+        width : 120px;
+        font-family: Kewl;
+        font-size: 20px;
+        color:darkred;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 75px;
+        border-radius: 20px;
+        transition: .2s;
+    }
+
+    & button:hover{
+        transform: scale(1.2);
+        background-color: darkred;
+    }
+
+    & button:not(:hover){
+        background-color: white;
+
+    }
+    
+    & button:hover a{
+        color: white;
+    }
+
+    & button:not(:hover) a{
+        color: darkred
+
+    }
+
+    & button:active{
+        transform : scale(1);
+        background-color: white;
+    }
+
+    & button:active a{
+        color: darkred
+    }
