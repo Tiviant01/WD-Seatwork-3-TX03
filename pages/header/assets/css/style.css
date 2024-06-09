@@ -3,6 +3,16 @@
     src: url(../fonts/jellee.roman.ttf);
 }
 
+@font-face {
+    font-family: Popi;
+    src: url(../fonts/Aller\ Display.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -24,9 +34,13 @@ header.design1{
     justify-content: space-between;
     padding: .7rem 10vw;
     align-items: center;
-    background-color: darkred;
     color: white;
-}
+    background-image: url(../img/jabee.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }   
+
 
     & img{
         height : 60px;
@@ -76,10 +90,12 @@ header.design2{
 
     & .design2.img{
         height: 30px;
+        margin: none;
     }
 
     & .design2.p{
         margin: none;
+        padding-left: 10px;
     }
 
 #box2{
@@ -88,22 +104,124 @@ header.design2{
         align-items: center;
        }
 
+#box3{
+        padding-right: 20px;
+        padding-left: 20px;
+        height : 60px;
+        align-items: center;
+        border-radius: 20px;
+        border: 4px #ffc400 solid;
+        color: white;
+        background-color: #ffc400;
+       }
+
+
 #nav2 {
-        padding-right: 140px;
+        padding-right: 30px;
         
     }
 
+.icon-container img {
+        filter: invert(100%);
+      }
 header.design2 button {
 
         margin-left: 15px;
+        border: none;
+        background-color: rgba(0,0,0,0);
         font-family: Arial Black;
-        font-size: 17px;
-        color: red;
-        border:yellow solid;
-        height: 45px;
+        color: white;
+        font-size: 20px;
 
     }
-    
+
+header.design3{
+        display: flex;
+        width: 80vw;
+        justify-content: center;
+        padding: 0.9rem 10vw;
+        align-items: center;
+        color: white;
+        font-family:Arial Black;
+        background-image: url(../img/burgir.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px -80px;
+        background-attachment: fixed;
+        background-size: cover;
+    }   
+
+    header.design3 img{
+        transform: scale(1.5);
+        
+
+    }
+
+    .image-container {
+        background-color: white;
+        display: inline-block; 
+        padding: 16px; 
+        border-radius: 150px;
+      }
+      
+
+    #nav3 {
+        padding-right: 60px;
+        color: white;
+        
+    }
+    #nav4 {
+        padding-left: 60px;
+
+    }
+
+header.design3 button {
+
+        margin-left: 45px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-family: Arial Black;
+        font-size: 20px;
+        border-radius: 20px;
+
+    }
 
 
+header.design4{
+        display: flex;
+        width: 80vw;
+        justify-content: space-between;
+        padding: .7rem 10vw;
+        align-items: center;
+        color: white;
+        font-family: Popi;
+        background-image: url(../img/popi.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px -80px;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+#box4{
+        height : 60px;
+        padding-left: 30px ;
+        align-items: center;
+       }
+
+.image-containera {
+        background-color: white;
+        display: inline-block; 
+        padding: 12px; 
+        border-radius: 150px;
+      }
+      
+      & .design4 p{
+        padding-left: 10px;
+      }
+
+#box5{
+        height : 60px;
+        padding-left: 30px ;
+        align-items: center;
+       }
 
