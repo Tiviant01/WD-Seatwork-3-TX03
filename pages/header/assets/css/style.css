@@ -39,7 +39,6 @@ header.design1{
     color: white;
     background-image: url(../img/jabee.webp);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     }   
 
@@ -116,7 +115,9 @@ header.design2{
         color: white;
         background-color: #ffc400;
        }
-
+#box3 p{
+    font-size: 20px;
+}
 
 #nav2 {
         padding-right: 30px;
@@ -141,15 +142,14 @@ header.design3{
         display: flex;
         width: 80vw;       
         justify-content: center;
-        padding: 0.9rem 10vw;
+        padding: .7rem 10vw;
         align-items: center;
         color: white;
         font-family:Arial Black;
         background-image: url(../img/burgir.jpg);
-        background-repeat: no-repeat;
-        background-position: 0px -80px;
-        background-attachment: fixed;
-        background-size: cover;
+        background-repeat: repeat;
+        background-position: -420px -530px;
+        background-size: fixed;
     }   
 
     header.design3 img{
@@ -200,8 +200,7 @@ header.design4{
         border: 4px rgba(255, 174, 0, 0.829) solid;
         background-image: url(../img/popi.jpg);
         background-repeat: no-repeat;
-        background-position: 0px -80px;
-        background-attachment: fixed;
+        background-position: 0px 0px;
         background-size: cover;
     }
 
