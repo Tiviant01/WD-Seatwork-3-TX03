@@ -15,11 +15,12 @@ section.name{
     display : flex;
     width: 100vw;
     justify-content: flex-start;
+    padding-top: 30px;
 }
 
 header.design1{
     display: flex;
-    width: 100vw;
+    width: 80vw;
     justify-content: space-between;
     padding: .7rem 10vw;
     align-items: center;
@@ -27,21 +28,82 @@ header.design1{
     color: white;
 }
 
-header.design1.box{
-    display: flex;  
-    align-items: center;
-    width: 500px;
-
-}
-
     & img{
         height : 60px;
     }
 
-    & h1{
-        font-size: 25px;
+    & p{
+        font-size: 35px;
+        margin : none;
     }
 
-header.design1.box.item{
-        padding :5px;
-    } 
+.box{
+     display: flex;
+     justify-content: flex-start;
+    }
+   
+#box1{
+     height : 60px;
+     padding-left: 30px ;
+     align-items: center;
+    }
+
+#nav1 {
+    padding-right: 140px;
+}
+
+header.design1 button{
+        margin-left: 15px;
+        font-family: Kewl;
+        font-size: 17px;
+        color: darkred;
+        border-radius: 10px;
+        border: none;
+        height: 30px;
+
+    }
+
+header.design2{
+        display: flex;
+        width: 80vw;
+        justify-content: space-between;
+        padding: .7rem 10vw;
+        align-items: center;
+        background-color: red;
+        color: white;
+        font-family:Arial Black;
+    }   
+
+    & .design2.img{
+        height: 30px;
+    }
+
+    & .design2.p{
+        margin: none;
+    }
+
+#box2{
+        height : 60px;
+        padding-left: 30px ;
+        align-items: center;
+       }
+
+#nav2 {
+        padding-right: 140px;
+        
+    }
+
+header.design2 button {
+
+        margin-left: 15px;
+        font-family: Arial Black;
+        font-size: 17px;
+        color: red;
+        border:yellow solid;
+        height: 45px;
+
+    }
+    
+
+
+
