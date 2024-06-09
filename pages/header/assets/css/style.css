@@ -8,8 +8,40 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: Kewl;
 }
 
-section{
-    
+section.name{
+    display : flex;
+    width: 100vw;
+    justify-content: flex-start;
 }
+
+header.design1{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: .7rem 10vw;
+    align-items: center;
+    background-color: darkred;
+    color: white;
+}
+
+header.design1.box{
+    display: flex;  
+    align-items: center;
+    width: 500px;
+
+}
+
+    & img{
+        height : 60px;
+    }
+
+    & h1{
+        font-size: 25px;
+    }
+
+header.design1.box.item{
+        padding :5px;
+    } 
