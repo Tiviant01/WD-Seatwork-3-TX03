@@ -8,6 +8,8 @@
     src: url(../fonts/Aller\ Display.ttf);
 }
 
+
+
 a{
     text-decoration: none;
     color: black;
@@ -137,7 +139,7 @@ header.design2 button {
 
 header.design3{
         display: flex;
-        width: 80vw;
+        width: 80vw;       
         justify-content: center;
         padding: 0.9rem 10vw;
         align-items: center;
@@ -195,6 +197,7 @@ header.design4{
         align-items: center;
         color: white;
         font-family: Popi;
+        border: 4px rgba(255, 174, 0, 0.829) solid;
         background-image: url(../img/popi.jpg);
         background-repeat: no-repeat;
         background-position: 0px -80px;
@@ -221,7 +224,81 @@ header.design4{
 
 #box5{
         height : 60px;
-        padding-left: 30px ;
+        width: 450px;
         align-items: center;
+        margin-right: 80px;
        }
 
+.design4 input{
+    display : flex;
+    flex: 1;
+    height: 40px;
+    border: 4px rgba(255, 174, 0, 0.829) solid;
+    border-radius: 100px;
+    padding-left: 15px;
+}
+
+
+.design4 ::placeholder {
+    
+    color: black
+}
+
+
+header.design5{
+    display: flex;
+    width: 80vw;
+    justify-content: space-evenly;
+    padding: .7rem 10vw;
+    align-items: center;
+    background-color: green;
+    color: white;
+    font-family:Arial Black;
+}   
+
+
+#box6{
+    height : 60px;
+    width: 100px;
+    align-items: center;
+    margin-right: 80px;
+}
+
+#box7{
+    height : 60px;
+    width: 250px;
+    align-items: center;
+    margin-left: 80px;
+}
+
+#box7 img{
+    padding-left: 10px;
+}
+
+#nav5{
+    padding-left: 60px;
+    
+}
+
+.design5 button{
+    padding-left: 15px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.icon-containerr img {
+    padding-right: 30px;
+  }
+
+.icon-containert img {
+    filter: invert(100%);
+    padding-right: 15px;
+  }
+
+.icon-containerx img {
+    filter: invert(100%);
+    transform: scale(1.5);
+  }
