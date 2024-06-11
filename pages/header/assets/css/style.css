@@ -8,7 +8,10 @@
     src: url(../fonts/Aller\ Display.ttf);
 }
 
-
+@font-face {
+    font-family: zoom;
+    src: url(../fonts/AZNUnified-Oblique-Trial.otf);
+}
 
 a{
     text-decoration: none;
@@ -248,7 +251,7 @@ header.design4{
 header.design5{
     display: flex;
     width: 80vw;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: .7rem 10vw;
     align-items: center;
     background-color: green;
@@ -327,7 +330,7 @@ header.design5{
     }
 
     & .design6 img:hover{
-        transform: rotate(360deg);
+        transform: rotate(20deg);
         
     }
 
@@ -381,6 +384,28 @@ header.design6 button{
     }
 
 
+@keyframes updown{
+
+    from{
+        transform:  translateY(0px)
+    }
+
+    to{  
+        transform:  translateY(-3px);
+    }
+}
+
+@keyframes press{
+    from{  
+        transform:  translateY(-3px);
+    }
+
+    to{
+        transform:  translateY(0px)
+    }
+}
+
+
     header.design7{
         display: flex;
         width: 80vw;
@@ -408,6 +433,19 @@ header.design6 button{
         align-items: center;
        }
 
+       .box9 p{
+        font-size: 20px;
+        transition: .1s;
+    }
+
+    #box9 :hover{
+        cursor: default;
+        animation: updown .1s ;
+        animation-fill-mode: forwards;
+        
+    }
+    
+
 #box10{
         padding-right: 20px;
         padding-left: 20px;
@@ -417,10 +455,26 @@ header.design6 button{
         border: 4px #ffc400 solid;
         color: white;
         background-color: #ffc400;
+        cursor: default;
+        
        }
-.box9 p{
+
+
+    #box10 p{
+    font-size: 20px;
+    transition: .1s;
+}
+
+    #box10 p:hover {
+    font-size: 23px;
+}
+
+    #box10 p:active {
     font-size: 20px;
 }
+
+
+    
 
 #nav7 {
         padding-right: 30px;
@@ -438,17 +492,144 @@ header.design7 button {
         font-family: Arial Black;
         color: white;
         font-size: 20px;
-        height: 80px;
+        height: 60px;
         border : none;
-        transition: .3sec;
-
+        border-bottom: 5px rgba(0,0,0,0) solid;
+        transition: .1s;
     }
 
     .design7 button:hover{
+        animation: updown .1s ;
+        animation-fill-mode: forwards;
         background-color: #ffc400;
-        border-bottom: 5px white solid;
-        padding-top: 5px;
+        border-bottom: 5px #ff7b00 solid;
+    }
+
+    .design7 button:active{
+        animation: press .1s;
+        background-color: #ffc400;        
+        border-left: 5px red solid;
+        border-right: 5px red solid;
+        border-bottom: 5px red solid;;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+header.design10{
+        display: flex;
+        width: 80vw;
+        justify-content: space-between;
+        padding: .7rem 10vw;
+        align-items: center;
+        background-color: green;
+        color: white;
+        font-family:Arial Black;
+    }   
+     
+    #box13{
+        height : 60px;
+        width: 100px;
+        align-items: center;
+        margin-right: 80px;
+        transition: .1s;
+    }
+    
+    #box13:hover{
+        transform: skew(-10deg);
+    }
+
+    #box14{
+        height : 60px;
+        width: 250px;
+        align-items: center;
+        margin-left: 80px;
+    }
+    
+    #box14 img{
+        padding-left: 10px;
+    }
+    
+    #nav10{
+        padding-left: 60px;
+        
+    }
+    
+    .design10 button{
+        padding-left: 15px;
+        border: none;
+        background-color: rgba(0,0,0,0);
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        transition: .1s;
+    }
+
+    .design10 button:hover{
+        transform: skew(-30deg);
+        font-family: zoom;
+    }
+
+    .design10 button:active{
+        transform: skew(0deg);
+        
 
     }
+    
+    .icon-containerrr img{
+        padding-right: 30px;
+        transition: .2s;
+      }
+
+    .icon-containerrr img:hover{
+        filter: invert(40%) sepia(61%) saturate(4145%) hue-rotate(201deg) brightness(95%) contrast(99%);
+    }
+    
+    .icon-containertt img {
+        filter: invert(100%);
+        padding-right: 15px;
+        transition: .2s;
+      }
+
+    .icon-containertt img:hover{
+        filter: invert(26%) sepia(78%) saturate(2079%) hue-rotate(317deg) brightness(94%) contrast(91%);
+    }
+    
+    .icon-containerxx img {
+        filter: invert(100%);
+        transform: scale(1.5);
+        transition: .2s;
+
+      }
+
+    .icon-containerxx img:hover{
+        filter: invert(0%) sepia(95%) saturate(21%) hue-rotate(2deg) brightness(101%) contrast(107%);
+        
+      }
 
 
