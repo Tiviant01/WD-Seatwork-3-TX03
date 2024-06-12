@@ -330,10 +330,13 @@ header.design5{
     }
 
     & .design6 img:hover{
-        transform: rotate(20deg);
+        transform: scale(1.2)rotate(15deg);
         
     }
-
+    & .design6 img:active{
+        transform: scale(1);
+        
+    }
     & .design6 p{
         font-size: 35px;
         margin : none;
@@ -516,31 +519,203 @@ header.design7 button {
 
 
 
+    header.design8{
+        display: flex;
+        width: 80vw;       
+        justify-content: center;
+        padding: .7rem 10vw;
+        align-items: center;
+        color: white;
+        font-family:Arial Black;
+        background-image: url(../img/burgir.jpg);
+        background-repeat: repeat;
+        background-position: -420px -530px;
+        background-size: fixed;
+    }   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    header.design8 img{
+        padding-bottom: -5px;
+        transform: scale(1.5);
+        transition: .4s;
     
+    }
+
+    header.design8 img:hover{
+        transform: scale(1.8) rotate(360deg);
+    }
+
+    header.design8 img:active{
+        transition: .2s;
+        padding-bottom: -5px;
+        transform: scale(1.7) rotate(350deg);    
+    }
+
+    .image-container8 {
+        background-color: white;
+        display: inline-block; 
+        padding: 16px; 
+        border-radius: 150px;
+        transition: .2s;
+      }
+
+    .image-container8 :hover {
+        padding: 17px; 
+        
+      }     
+
+
+    #nav8 {
+        padding-right: 60px;
+        color: white;
+        
+    }
+    #nav9 {
+        padding-left: 60px;
+
+    }
+
+header.design8 button {
+
+        margin-left: 45px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-family: Arial Black;
+        font-size: 20px;
+        border-radius: 20px;
+        transition: .3s;
+    }
+
+    .design8 button:hover{
+        transform: scale(1.2) rotate(360deg);
+        background-color: white;
+        color: black;       
+    }
+
+    .design8 button:active{
+        transform: scale(1.0) rotate(360deg);
+        background-color: black;
+        color: white;
+    }
+
+
+    header.design9{
+        display: flex;
+        width: 80vw;
+        justify-content: space-between;
+        padding: .7rem 10vw;
+        align-items: center;
+        color: white;
+        font-family: Popi;
+        border: 4px rgba(255, 174, 0, 0.829) solid;
+        background-image: url(../img/popi.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-size: cover;
+    }
+
+#box11{
+        height : 60px;
+        padding-left: 30px ;
+        align-items: center;
+       }
+
+.image-containeraa {
+        background-color: white;
+        display: inline-block; 
+        padding: 12px; 
+        border-radius: 150px;
+        transition: .2s;
+      }
+.image-containeraa img{
+        transition: transform .7s ease
+}
+
+.image-containeraa img:hover {
+        transform: rotateY(360deg);
+    }    
+
+      & .design9 p{
+        padding-left: 10px;
+        transition: .7s;
+      }
+      
+      & .design9 p:hover{
+        transform: rotateX(360deg);
+      }
+
+#box12{
+        height : 60px;
+        width: 450px;
+        align-items: center;
+        margin-right: 80px;
+       }
+
+.design9 input{
+    display : flex;
+    flex: 1;
+    height: 40px;
+    border: 4px rgba(180, 123, 0, 0.827) solid;
+    border-radius: 100px;
+    padding-left: 15px;
+}
+
+
+.design9 ::placeholder {
+    
+    color: black
+}
+
+
+header.design5{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    padding: .7rem 10vw;
+    align-items: center;
+    background-color: green;
+    color: white;
+    font-family:Arial Black;
+}   
+
+.icon-containerqwe img{
+        filter: invert(100%);
+        transition: .1s;
+}
+
+.icon-containerqwe img:hover{
+    transform: scale(0.8);
+}
+
+.icon-containerqwe img:active{
+    filter: invert(47%) sepia(19%) saturate(3339%) hue-rotate(16deg) brightness(96%) contrast(106%);
+    transform: scale(1);
+}
+
+#box6{
+    height : 60px;
+    width: 100px;
+    align-items: center;
+    margin-right: 80px;
+}
+
+#box7{
+    height : 60px;
+    width: 250px;
+    align-items: center;
+    margin-left: 80px;
+}
+
+#box7 img{
+    padding-left: 10px;
+}
+
+#nav5{
+    padding-left: 60px;
+    
+}
+
+
 header.design10{
         display: flex;
         width: 80vw;
@@ -562,6 +737,10 @@ header.design10{
     
     #box13:hover{
         transform: skew(-10deg);
+    }
+
+    #box13:active{
+        transform: skew(0deg);
     }
 
     #box14{
@@ -603,27 +782,36 @@ header.design10{
     
     .icon-containerrr img{
         padding-right: 30px;
-        transition: .2s;
+        transition: .1s;
       }
 
     .icon-containerrr img:hover{
         filter: invert(40%) sepia(61%) saturate(4145%) hue-rotate(201deg) brightness(95%) contrast(99%);
     }
+
+    .icon-containerrr img:active{
+        filter: invert(0%);
+        transform: scale(0.9);
+    }
     
     .icon-containertt img {
         filter: invert(100%);
         padding-right: 15px;
-        transition: .2s;
+        transition: .1s;
       }
 
     .icon-containertt img:hover{
         filter: invert(26%) sepia(78%) saturate(2079%) hue-rotate(317deg) brightness(94%) contrast(91%);
     }
-    
+
+    .icon-containertt img:active{
+        filter: invert(100%);
+        transform: scale(.9);
+    }
     .icon-containerxx img {
         filter: invert(100%);
-        transform: scale(1.5);
-        transition: .2s;
+        transform: scale(1.6);
+        transition: .1s;
 
       }
 
@@ -632,4 +820,8 @@ header.design10{
         
       }
 
+      .icon-containerxx img:active{
+        filter: invert(100%);
+        transform: scale(1.3)
+      }
 

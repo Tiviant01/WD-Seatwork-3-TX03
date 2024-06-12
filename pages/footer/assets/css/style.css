@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Kewl;
+    src: url(../fonts/jellee.roman.ttf);
+}
+
+@font-face {
+    font-family: Popi;
+    src: url(../fonts/Aller\ Display.ttf);
+}
+
+@font-face {
+    font-family: zoom;
+    src: url(../fonts/AZNUnified-Oblique-Trial.otf);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Kewl;
+}
+
+section.name{
+    display : flex;
+    width: 100vw;
+    justify-content: flex-start;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+footer.design1{
+    display: flex;
+    width: 80vw;
+    height: 3vw;
+    justify-content: space-between;
+    padding: .7rem 10vw;
+    align-items: center;
+    color: white;
+    background-image: url(../img/jabee.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }  
