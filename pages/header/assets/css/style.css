@@ -64,7 +64,6 @@ header.design1{
 #box1{
      height : 60px;
      padding-left: 30px ;
-     align-items: center;
     }
 
 #nav1 {
@@ -220,7 +219,7 @@ header.design4{
         padding: 12px; 
         border-radius: 150px;
       }
-      
+
       & .design4 p{
         padding-left: 10px;
       }

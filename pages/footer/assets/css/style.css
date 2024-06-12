@@ -26,6 +26,11 @@ body{
     font-family: Kewl;
 }
 
+.box{
+    display: flex;
+    justify-content: flex-start;
+   }
+
 section.name{
     display : flex;
     width: 100vw;
@@ -47,6 +52,25 @@ footer.design1{
     background-size: cover;
     }  
 
+
+    .design1 img{
+        height : 60px;
+    }
+
+    .design1 nav{
+    display: flex;
+    flex-direction: row;
+    }
+
+    .design1 h2{
+    padding-left: 50px;
+    }
+
+    #box1{
+        height : 60px;
+        align-items: center;
+    }
+
 footer.design2{
     display: flex;
     width: 80vw;
@@ -59,7 +83,281 @@ footer.design2{
     font-family:Arial Black;
 }   
 
+    .design2 img{
+        height: 55px;
+    }
+
+    .design2 nav{
+    display: flex;
+    flex-direction: row;
+    }
+
+    .design2 h2{
+    padding-right: 50px;
+    }
+
+    .design2 p{
+    padding-left: 40px;
+    }
+
+    #box2{
+    height : 60px;
+    align-items: center;
+    }
+
+    #box3{
+    height : 60px;
+    align-items: center;
+    }
+
 footer.design3{
+    display: flex;
+    width: 80vw;      
+    justify-content: space-between;
+    padding: .7rem 10vw;
+    align-items: center;
+    font-family:Arial;
+    background-image: url(../img/burgir.jpg);
+    background-repeat: repeat;
+    background-position: -180px -130px;
+    background-size: fixed;
+}
+
+    .design3 img{
+    height: 150px;
+    }
+
+    .design3 nav{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .design3 h2{
+    font-family: Arial Black;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    }
+
+    .design3 p{
+    font-family: Arial Black;
+    color: black;
+    }
+
+    #box4and5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    }
+
+    #box4{
+    width: 180px;
+    align-items: center;
+    }
+
+    #box5{
+    width: 210px;
+    align-items: center;
+    }
+
+    #box6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;  
+    }
+
+footer.design4{
+    display: flex;
+    width: 80vw;
+    justify-content: space-evenly;
+    padding: .7rem 10vw;
+    align-items: flex-start;
+    color: white;
+    font-family: Popi;
+    border: 4px rgba(255, 174, 0, 0.829) solid;
+    background-image: url(../img/popi.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+    .design4 h2{
+    font-family: Popi;
+    font-size:70px;
+    margin: -10px;
+    }
+
+    .design4 h3{
+    font-family: Popi;
+    font-size: 30px;
+    margin-bottom: -5px;
+    }
+
+    .design4 img{
+    height: 150px;
+    background-color: white;
+    display: inline-block; 
+    padding: 12px; 
+    border-radius: 150px;   
+    }
+
+    #box7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #box8{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }  
+
+    #box9{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+    
+    #box10{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+
+    #box8910{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+
+
+footer.design5{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    padding: .7rem 10vw;
+    align-items: center;
+    background-color: green;
+    color: white;
+    font-family:Arial Black;
+}
+
+    .design5 img{
+    height: 100px;
+    }
+
+    .design5 h3{
+    font-family: zoom;
+    }
+
+    .design5 p{
+    font-family: zoom;
+    }
+
+    #imglogo{
+    padding-left: 32px;
+    }
+
+    #img1{
+    transform: scale(0.4);
+    }
+
+    #img2{
+    filter: invert(100%);
+    transform: scale(0.4);
+    }
+
+    #img3{
+    
+    filter: invert(100%);
+    transform: scale(0.6);
+    }
+
+    #box11{
+    margin-right: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;      
+    }
+
+    #box12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;      
+    }
+
+    #box13{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }  
+    
+    #box14{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+        
+    #box15{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+    
+    #box131415{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+
+
+footer.design6{
+    display: flex;
+    width: 80vw;
+    height: 3vw;
+    justify-content: space-between;
+    padding: .7rem 10vw;
+    align-items: center;
+    color: white;
+    background-image: url(../img/jabee.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }  
+
+footer.design7{
+    display: flex;
+    width: 80vw;
+    height: 3vw;
+    justify-content: space-between;
+    padding: .7rem 10vw;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-family:Arial Black;
+}   
+
+footer.design8{
     display: flex;
     width: 80vw;
     height: 3vw;       
@@ -74,7 +372,7 @@ footer.design3{
     background-size: fixed;
 }
 
-footer.design4{
+footer.design9{
     display: flex;
     width: 80vw;
     height: 3vw;
@@ -90,7 +388,7 @@ footer.design4{
     background-size: cover;
 }
 
-footer.design5{
+footer.design10{
     display: flex;
     width: 80vw;
     height: 3vw;
