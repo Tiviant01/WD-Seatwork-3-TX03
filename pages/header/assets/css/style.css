@@ -587,13 +587,13 @@ header.design8 button {
     }
 
     .design8 button:hover{
-        transform: scale(1.2) rotate(360deg);
+        transform: scale(1.2) rotateX(360deg);
         background-color: white;
         color: black;       
     }
 
     .design8 button:active{
-        transform: scale(1.0) rotate(360deg);
+        transform: scale(1.0) rotateX(360deg);
         background-color: black;
         color: white;
     }
@@ -612,6 +612,7 @@ header.design8 button {
         background-repeat: no-repeat;
         background-position: 0px 0px;
         background-size: cover;
+        cursor: default ;
     }
 
 #box11{
@@ -667,20 +668,11 @@ header.design8 button {
 }
 
 
-header.design5{
-    display: flex;
-    width: 80vw;
-    justify-content: space-between;
-    padding: .7rem 10vw;
-    align-items: center;
-    background-color: green;
-    color: white;
-    font-family:Arial Black;
-}   
+
 
 .icon-containerqwe img{
         filter: invert(100%);
-        transition: .1s;
+        transition: ;
 }
 
 .icon-containerqwe img:hover{
