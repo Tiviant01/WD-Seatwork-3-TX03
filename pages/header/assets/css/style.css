@@ -32,7 +32,15 @@ section.name{
     justify-content: flex-start;
     padding-top: 30px;
     padding-left: 20px;
+    align-items:center
 }
+
+.name h1{
+    font-family: Kewl;
+    font-size: 17px;
+}
+
+
 
 header.design1{
     display: flex;
@@ -64,6 +72,7 @@ header.design1{
 #box1{
      height : 60px;
      padding-left: 30px ;
+     align-items: center;
     }
 
 #nav1 {
@@ -479,8 +488,7 @@ header.design6 button{
     
 
 #nav7 {
-        padding-right: 30px;
-        
+        padding-right: 30px;        
     }
 
 .icon-containerp img {
@@ -671,7 +679,7 @@ header.design8 button {
 
 .icon-containerqwe img{
         filter: invert(100%);
-        transition: ;
+        transition: .1s;
 }
 
 .icon-containerqwe img:hover{
