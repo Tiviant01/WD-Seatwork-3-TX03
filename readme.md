@@ -40,7 +40,7 @@
           <a href="#technology">Technology</a>
         </li>
         <li>
-          <a href="#deploy">Deployment Link</a>
+          <a href="#deployment link">Deployment Link</a>
         </li>
       </ol>
     </li>
