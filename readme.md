@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/Tiviant01/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/ian.png" alt="dp" width="160" height="130">
+    <img src="./assets/img/ian.png" alt="dp" width="190" height="130">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Headers and Footers</h3>
