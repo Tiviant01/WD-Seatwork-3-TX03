@@ -39,6 +39,9 @@
         <li>
           <a href="#technology">Technology</a>
         </li>
+        <li>
+          <a href="#deploy">Deployment Link</a>
+        </li>
       </ol>
     </li>
     <li>
@@ -66,7 +69,8 @@ This Project is a collection of different header and footer designs with and wit
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-
+### Deploy
+https://tiviant01.github.io/WD-Seatwork-3-TX03/
 
 ## Resources
 
