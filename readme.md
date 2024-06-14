@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/Tiviant01/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/ian.png" alt="dp" width="190" height="130">
+    <img src="./assets/img/ian.png" alt="dp" width="210" height="130">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Headers and Footers</h3>
@@ -73,4 +73,22 @@ This Project is a collection of different header and footer designs with and wit
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|Jolly Wallpapers for Desktop and Mobile|Landing Page and Header/Footer Background|https://www.jollibeefoods.com/blogs/buzz-room/jolly-wallpapers|
+|Burger King Fairview Commonwealth "Home of the Whopper"|Background|https://www.facebook.com/burgerkingph/photos/burger-king-fairview-commonwealth-home-of-the-whopper/10153107832189106/?_rdr|
+|Case Study: Popeyes Franchise|Background|https://www.ayrking.com/case-studies/popeyes/
+|Jollibee mascot|Logo|https://www.stickpng.com/img/icons-logos-emojis/restaurant-logos/jollibee-mascot|
+|McDonalds Yellow M Logo|Logo|https://www.stickpng.com/img/icons-logos-emojis/iconic-brands/mcdonalds-yellow-m-logo|
+|Burger King Logo|Logo|https://www.stickpng.com/img/icons-logos-emojis/iconic-brands/burger-king-logo|
+|Popeyes Chicken Thumbnail|Logo|https://www.stickpng.com/img/icons-logos-emojis/restaurant-logos/popeyes-chicken-thumbnail|
+|Subway Logo|Logo|https://www.stickpng.com/img/download/5842f062a6515b1e0ad75b15|
+|Jellee Font|Font|https://www.1001fonts.com/jellee-font.html|
+|Popeyes Font|Font|https://fontswan.com/popeyes-font/#google_vignette|
+|AZN Unified Font|Font|https://www.1001fonts.com/azn-unified-font.html|
+|White Facebook Logo Icon|Icon|https://www.stickpng.com/img/icons-logos-emojis/social-media-icons/white-facebook-logo-icon|
+|Instagram Icon|Icon|https://www.stickpng.com/img/icons-logos-emojis/tech-companies/instagram-icon|
+|x.com Logo Twitter Rebranding transparent|Icon|https://www.stickpng.com/img/icons-logos-emojis/tech-companies/xcom-logo-twitter-rebranding|
+|Outlined Phone Icon|Icon|https://www.stickpng.com/img/electronics/phone-icons/outlined-phone-icon|
+|Menu Icon|Icon|https://www.stickpng.com/img/icons-logos-emojis/menu-icons/menu-icon|
+|Learn CSS Animations In 20 Minutes - For Beginners|Animations|https://www.youtube.com/watch?v=SgmNxE9lWcY|
+|How to maintain the final state at end of a CSS3 animation ?|Animation|https://www.geeksforgeeks.org/how-to-maintain-the-final-state-at-end-of-a-css3-animation/|
+|How To Change Color Of PNG Image Via CSS|Animation|https://www.youtube.com/watch?v=Ni49a8gZQxY|
