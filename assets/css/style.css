@@ -92,3 +92,14 @@ section.home.buttons{
     & button:active a{
         color: darkred
     }
+
+    button.resume{
+        position: fixed;
+        top: .5%;
+        left: .5%;
+        background-color: rgb(110, 108, 108);
+        color: grey;
+        font-size: 20px;
+        font-family: Kewl;
+        padding: 15px;
+    }
